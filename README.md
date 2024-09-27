@@ -1,70 +1,129 @@
-# Getting Started with Create React App
+# Dynamic Table with Product Filters and Variants
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a dynamic table-based UI that enables users to add, remove, and reorder rows (representing states) and columns (representing design variants). The project is built using **React** and styled with **Tailwind CSS** for consistency and responsiveness.
 
-## Available Scripts
+## 🚀 Features
 
-In the project directory, you can run:
+1. **Dynamic Rows (States):**  
+   Users can dynamically add and delete rows. Each row corresponds to a state with a product filter.
 
-### `npm start`
+2. **Dynamic Columns (Variants):**  
+   Users can dynamically add and remove variant columns, with each column representing a design variant.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. **Row Reordering (Drag-and-Drop):**  
+   The table supports row reordering via drag-and-drop to rearrange states.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+4. **Design Insertion (Optional):**  
+   Users can insert a design into any specific variant column.
 
-### `npm test`
+5. **Scrollable for Multiple Variants:**  
+   When more than four variant columns are added, a scroll is implemented to maintain the layout's cleanliness and responsiveness.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Tech Stack
 
-### `npm run build`
+- **React:** Core framework for building the UI.
+- **Tailwind CSS:** For styling and ensuring the UI is responsive.
+- **React Beautiful DnD:** For implementing drag-and-drop functionality in the table rows.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🖥️ Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Ensure you have the following installed on your local environment:
 
-### `npm run eject`
+- **Node.js** (v14 or above)
+- **npm** or **yarn**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Installation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/repository-name.git
+   cd repository-name
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+   or if using yarn:
+   ```bash
+   yarn install
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Running the Project
 
-## Learn More
+To run the development server locally:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+or with yarn:
 
-### Code Splitting
+```bash
+yarn start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+The application will be available at `http://localhost:3000`.
 
-### Analyzing the Bundle Size
+### Building for Production
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+To create a production build:
 
-### Making a Progressive Web App
+```bash
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+or with yarn:
 
-### Advanced Configuration
+```bash
+yarn build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+After the build process, you can deploy the project on your preferred hosting platform.
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This project can be deployed using platforms like **Netlify** or **Vercel**:
 
-### `npm run build` fails to minify
+1. Create an account on [Netlify](https://netlify.com) or [Vercel](https://vercel.com).
+2. Connect your GitHub repository.
+3. Follow the steps to deploy the project directly from your repository.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📂 Project Structure
+
+Here’s an overview of the project's file structure:
+
+```
+├── components
+│   ├── DynamicTable.js      # Main component for the dynamic table
+│   ├── Modal.js             # Component for handling modals
+│   └── ...
+├── pages
+│   ├── App.js               # Entry point for the application
+│   └── ...
+├── styles
+│   └── globals.css          # Global styles for Tailwind CSS
+└── public
+    └── assets               # Images and other assets
+```
+
+## 📜 Notes
+
+- **Responsiveness:** The UI is fully responsive and adapts to various screen sizes.
+- **Tailwind CSS:** Used for clean, consistent design across the application.
+- **React:** Provides a dynamic and interactive user experience.
+
+## 💻 Demo
+
+You can access the live demo of this project here: [Live Demo](https://retainiq-frontend-gautam.netlify.app/)
+
+## 🛠️ Future Enhancements
+
+- **Enhanced Design Insertion:** Further improving the design insertion experience.
+- **Variant Management:** Adding the ability to manage the order of variant columns.
+
+## 👨‍💻 Author
+
+- **Your Name** - [Gautam Mishra](https://github.com/gautam1103)
