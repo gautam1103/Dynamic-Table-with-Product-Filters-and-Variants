@@ -1,6 +1,6 @@
 # Dynamic Table with Product Filters and Variants
 
-This project is a dynamic table-based UI that enables users to add, remove, and reorder rows (representing states) and columns (representing design variants). The project is built using **React** and styled with **Tailwind CSS** for consistency and responsiveness.
+This project is a dynamic table-based UI that enables users to add, remove, and reorder rows (representing states) and columns (representing design variants). The project is built using **React** and styled with **Advanced CSS** for consistency and responsiveness.
 
 ## 🚀 Features
 
@@ -104,7 +104,7 @@ Here’s an overview of the project's file structure:
 │   ├── App.js               # Entry point for the application
 │   └── ...
 ├── styles
-│   └── globals.css          # Global styles for Tailwind CSS
+│   └── DynamicTable.css          # Responsive styles for Advanced UI
 └── public
     └── assets               # Images and other assets
 ```
@@ -112,7 +112,7 @@ Here’s an overview of the project's file structure:
 ## 📜 Notes
 
 - **Responsiveness:** The UI is fully responsive and adapts to various screen sizes.
-- **Tailwind CSS:** Used for clean, consistent design across the application.
+- **Advanced CSS:** Used for clean, consistent design across the application.
 - **React:** Provides a dynamic and interactive user experience.
 
 ## 💻 Demo
