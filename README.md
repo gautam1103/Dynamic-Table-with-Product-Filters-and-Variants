@@ -22,7 +22,7 @@ This project is a dynamic table-based UI that enables users to add, remove, and 
 ## 🛠️ Tech Stack
 
 - **React:** Core framework for building the UI.
-- **Tailwind CSS:** For styling and ensuring the UI is responsive.
+- **Advanced CSS:** For styling and ensuring the UI is responsive.
 - **React Beautiful DnD:** For implementing drag-and-drop functionality in the table rows.
 
 ## 🖥️ Getting Started
